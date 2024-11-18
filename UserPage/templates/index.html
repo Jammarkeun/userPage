@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>User Settings</h1>
+<div class="list-group">
+    <a href="/profile" class="list-group-item list-group-item-action">User Profile</a>
+    <a href="/order-history" class="list-group-item list-group-item-action">Order History</a>
+    <a href="/wishlist" class="list-group-item list-group-item-action">Wishlist/Favorites</a>
+    <a href="/cart" class="list-group-item list-group-item-action">Shopping Cart</a>
+    <a href="/address-book" class="list-group-item list-group-item-action">Address Book</a>
+    <a href="/payment-methods" class="list-group-item list-group-item-action">Payment Methods</a>
+    <a href="/reviews" class="list-group-item list-group-item-action">Reviews and Ratings</a>
+    <a href="/notifications" class="list-group-item list-group-item-action">Notifications</a>
+    <a href="/security" class="list-group-item list-group-item-action">Security Settings</a>
+    <a href="/returns" class="list-group-item list-group-item-action">Returns and Refunds</a>
+    <a href="/loyalty" class="list-group-item list-group-item-action">Loyalty Programs</a>
+    <a href="/logout" class="list-group-item list-group-item-action text-danger">Logout</a>
+</div>
+{% endblock %}
